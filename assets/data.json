@@ -1,0 +1,106 @@
+{
+  "reciept": {
+    "masks": ["mask_1", "mask_2", "mask_4"],
+    "textures": ["texture_1", "texture_2", "texture_3", "texture_4", "texture_5"],
+    "types": {
+      "Grocery Store": {
+        "items": [
+          ["orange juice", "9.99"],
+          ["milk", "5.99"],
+          ["10lb wheat grain", "12.99"],
+          ["10lb rice", "4.99"],
+          ["10lb corn", "12.99"],
+          ["2lb artificial steak", "1.99"],
+          ["2lb artificial pork", "1.99"],
+          ["2lb artificial chicken", "1.99"],
+          ["2lb organic steak", "9.99"],
+          ["2lb organic pork", "9.99"],
+          ["2lb organic chicken", "9.99"],
+          ["white bread", "100.99"],
+          ["2lb salt", "4.99"],
+          ["2lb sugar", "4.99"]
+        ]
+      },
+      "Pharmacy": {
+        "items": [
+          ["penicillin", "0.99"],
+          ["70% isoproply alcohol", "0.99"],
+          ["91% isoproply alcohol", "0.99"],
+          ["99% isoproply alcohol", "0.99"],
+          ["rubbing alcohol", "0.99"],
+          ["cigarettes", "5.99"],
+          ["phone cable", "3.99"],
+          ["toothpaste", "2.99"],
+          ["toothbrush", "1.99"],
+          ["mouthwash", "2.99"],
+          ["Acetaminophen", "1.99"],
+          ["ibuprofin", "1.99"],
+          ["razor", "3.99"]
+        ]
+      },
+      "Energy Station": {
+        "items": [
+          ["natural gas", "9.99"],
+          ["diesel", "15.99"],
+          ["crude oil", "9.99"],
+          ["Lithium battery pack", "2.99"],
+          ["Cadmuim battery pack", "2.99"]
+        ]
+      }
+    },
+    "codes": ["barcode_1", "barcode_2", "qr_code"]
+  }, 
+
+  "tag": {
+    "masks": ["mask_3", "mask_6"],
+    "textures": ["texture_6"],
+    "types": ["On-Sale", "50% Discount", "Buy-1-Get-1"],
+    "colors": ["#b5dc60", "#e28843", "#e176c4", "#fff899"],
+    "made_on": {
+      "Earth": [
+        "China", 
+        "India", 
+        "USA", 
+        "Vietnam", 
+        "Korea"
+      ],
+      "Mars": [
+        "Sector 0012", 
+        "Sector 3241", 
+        "Sector 6534", 
+        "Sector 0327"
+      ],
+      "Titan": [
+        "Kurath District", 
+        "WEokaRs District", 
+        "GraNNT District", 
+        "Womborrts District"
+      ],
+      "Moon": [
+        "Mine Colony 12", 
+        "Data Hub 41", 
+        "Plant 02"
+      ]
+    },
+    "codes": ["barcode_1", "barcode_2", "qr_code"]
+  },
+
+  "pass": {
+    "masks": ["mask_5"] ,
+    "textures": ["texture_6"],
+    "types": {
+      "Claim Check": {
+        "main_text": "Please Remove All Valuables",
+        "fine_print": "All vehicles are parked at owners risk. No liability is assumed by management for loss or damage by fire, theft, or any other cause to, or by the vehicle while in custody of management. All claims must be presented before vehicle is taken from facility. Any person flying becomes the agent of the owner solely. We are not responsible for the articles left in wehicle or mechanical problems"
+      },
+      "Parking Permit": {
+        "main_text": "",
+        "fine_print": ""
+      },
+      "Visitor Pass": {
+        "main_text": "",
+        "fine_print": ""
+      }
+    }
+  }
+}
