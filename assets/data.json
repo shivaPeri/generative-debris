@@ -24,9 +24,9 @@
       "Pharmacy": {
         "items": [
           ["penicillin", "0.99"],
-          ["70% isoproply alcohol", "0.99"],
-          ["91% isoproply alcohol", "0.99"],
-          ["99% isoproply alcohol", "0.99"],
+          ["70% isopropyl alcohol", "0.99"],
+          ["91% isopropyl alcohol", "0.99"],
+          ["99% isopropyl alcohol", "0.99"],
           ["rubbing alcohol", "0.99"],
           ["cigarettes", "5.99"],
           ["phone cable", "3.99"],
