@@ -253,7 +253,7 @@ function draw() {
     context.shadowOffsetX = 5;
     context.shadowOffsetY = -5;
     context.shadowColor = 'gray';
-    context.shadowBlur = 20 + i;
+    context.shadowBlur = 20;
     image(items[i], 0, 0);
     pop();
   }
